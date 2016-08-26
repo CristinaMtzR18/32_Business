@@ -3,26 +3,59 @@
 .bg-header{
 	background: url("../image/large.jpg");
 	background-size: cover;
-	height: 40em; 
-
-	opacity: 0.6;
+	height: 42em;
+	/* Para modificar la imagen pero afecta mi texto
+	-webkit-filter: invert(20%);
+	filter: invert(20%)*/
 }
 							/*** UTILIDADES ***/
 /*Fondo*/
-.bg-celeste {
-	background: #74a3db;
+.bg-celeste2{
+	background-color: rgba(116,163,184, 0.6);
 	padding: 30px;
+}
+.bg-celeste {
+	background-color: #74a3db;
+	padding: 30px;
+}
+/*Opacidad*/
+.opasidad{
+	opacity: 0.6;
+}
+/*Sombra*/
+.sombra{
+	-webkit-filter: drop-shadow(1px 1px 1px black);
+	filter: drop-shadow(1px 1px 1px black);
+}
+/*logo*/
+.logo{
+	width: 45%;
+	height: 30%;
 }
 /*Textos*/
 .text-title {
 	font-size: 50px;
-	color: #4DB1EA;
 	margin-top: 0;
 }
+.text-celeste{
+	color: #4DB1EA;
+}
+.text-gray{
+	color: #B7ADAD;
+}
 .text-white{
-	color: white;
+	color: white !important;
+}
+.abs{
+	position: absolute;
+    left: 50%;
+    
+    z-index: -1;
 }
 /*Margin*/
+.mg-0{
+	margin: 0;
+}
 .mg-3{
 	margin: 3%;
 }
@@ -30,8 +63,17 @@
 	margin: 5%;
 }
 /*Padding*/
+.pd-0{
+	padding: 0;
+}
 .pd-5{
 	padding: 5%;
+}
+.pd-10{
+	padding: 10%;
+}
+.pd-25{
+	padding: 25%;
 }
 
 /*Boton*/
