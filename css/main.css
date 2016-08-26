@@ -18,6 +18,17 @@
 	background-color: #74a3db;
 	padding: 30px;
 }
+.bg-celeste3 {
+	background-color: #74a3db;
+}
+.bg-section{
+	background: url("../image/sec-2.jpg");
+	background-size: cover;
+	height: 42em;
+	/* Para modificar la imagen pero afecta mi texto*/
+	-webkit-filter: invert(20%);
+	filter: invert(20%)
+}
 /*Opacidad*/
 .opasidad{
 	opacity: 0.6;
@@ -48,9 +59,9 @@
 }
 .abs{
 	position: absolute;
-    left: 50%;
-    
-    z-index: -1;
+    left: 45%;
+    margin-top: -2em;
+    z-index: 1;
 }
 /*Margin*/
 .mg-0{
@@ -62,9 +73,15 @@
 .mg-5{
 	margin: 5%;
 }
+.mg-40{
+	margin-left: 40%;
+}
 /*Padding*/
 .pd-0{
 	padding: 0;
+}
+.pd-3{
+	padding: 3%;
 }
 .pd-5{
 	padding: 5%;
