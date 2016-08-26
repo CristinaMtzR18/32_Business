@@ -8,20 +8,19 @@
 	opacity: 0.6;
 }
 							/*** UTILIDADES ***/
-/*hr*/
-hr{
-	width: 15%;
-	border: 0.2em solid #FF3300;
-}
-.miHr{
-	border: 0.2em solid #FFF;
+/*Fondo*/
+.bg-celeste {
+	background: #74a3db;
+	padding: 30px;
 }
 /*Textos*/
+.text-title {
+	font-size: 50px;
+	color: #4DB1EA;
+	margin-top: 0;
+}
 .text-white{
 	color: white;
-}
-.text-orange{
-	color: orange;
 }
 /*Margin*/
 .mg-3{
@@ -33,6 +32,18 @@ hr{
 /*Padding*/
 .pd-5{
 	padding: 5%;
+}
+
+/*Boton*/
+.boton {
+	margin-top: 50px;
+	background: #74a3db;
+	border: 2px solid white;
+	font-size: 20px;
+}
+			/*** FOOTER ***/
+footer {
+	background: #2a3541;
 }
 			/*** Breakpoints para el menu ***/
 @media (min-width: 1200px) {
