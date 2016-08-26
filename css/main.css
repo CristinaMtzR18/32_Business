@@ -67,6 +67,9 @@
 .mg-0{
 	margin: 0;
 }
+.mg-2{
+	margin: 2%;
+}
 .mg-3{
 	margin: 3%;
 }
@@ -76,6 +79,16 @@
 .mg-40{
 	margin-left: 40%;
 }
+.mgr-2{
+	margin-right: -10%;
+}
+.mgt-10{
+	margin-top: 10%;
+}
+.mgt-25{
+	margin-top: 25%;
+}
+
 /*Padding*/
 .pd-0{
 	padding: 0;
@@ -95,7 +108,7 @@
 
 /*Boton*/
 .boton {
-	margin-top: 50px;
+	margin-top: 5%;
 	background: #74a3db;
 	border: 2px solid white;
 	font-size: 20px;
