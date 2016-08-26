@@ -1,0 +1,49 @@
+
+			/*** HEADER ***/
+.bg-header{
+	background: url("../image/large.jpg");
+	background-size: cover;
+	height: 40em; 
+
+	opacity: 0.6;
+}
+							/*** UTILIDADES ***/
+/*hr*/
+hr{
+	width: 15%;
+	border: 0.2em solid #FF3300;
+}
+.miHr{
+	border: 0.2em solid #FFF;
+}
+/*Textos*/
+.text-white{
+	color: white;
+}
+.text-orange{
+	color: orange;
+}
+/*Margin*/
+.mg-3{
+	margin: 3%;
+}
+.mg-5{
+	margin: 5%;
+}
+/*Padding*/
+.pd-5{
+	padding: 5%;
+}
+			/*** Breakpoints para el menu ***/
+@media (min-width: 1200px) {
+/*Barra de navegación*/
+.navbar { 
+	background-color: transparent; 
+	background: transparent; 
+	border-color: transparent; 
+} 
+.navbar a{
+	color: white !important;
+	font-weight: 600 !important;
+}
+}
