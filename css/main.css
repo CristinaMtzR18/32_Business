@@ -79,14 +79,23 @@
 .mg-40{
 	margin-left: 40%;
 }
-.mgr-2{
+.mgr-10{
 	margin-right: -10%;
+}
+.mgr-15{
+	margin-right: -15%;
 }
 .mgt-10{
 	margin-top: 10%;
 }
 .mgt-25{
 	margin-top: 25%;
+}
+.mgt-55{
+	margin-top: 55%;
+}
+.mgt-80{
+	margin-top: 80%;
 }
 
 /*Padding*/
@@ -107,7 +116,7 @@
 }
 
 /*Boton*/
-.boton {
+.miBoton {
 	margin-top: 5%;
 	background: #74a3db;
 	border: 2px solid white;
