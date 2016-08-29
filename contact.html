@@ -1,35 +1,55 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	  <title>Contacto</title>
-	  <link rel="stylesheet" href="css/queries.css">
-	  <link rel="stylesheet" href="css/bootstrap.min.css">
-	  <link rel="stylesheet" href="css/font-awesome.min.css">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Hace que mi página sea compatible con Internet Explorer -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Contacto</title>
+		<link rel="shortcut icon" href="image/ico/favicon.ico"> <!-- "shortcut icon" nos indicaque es tipo icono, relación -->
+		<link rel="stylesheet" href="css/queries.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
 	</head>
 	<body>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12, col-sm-12 col-md-12 col-lg-12 ">
-				<div>
-					
+				<div class="col-xs-12, col-sm-12 col-md-12 col-lg-12">
+					<div class="formulario"> <!-- Inicia Formulario -->
+						<h2>Formulario User Testing 360</h2>
+						<hr>
+						<form role="form">
+							<div class="form-group">
+								<label for="nombre">Nombre <span>*</span></label>
+								<input type="text" id="nombre" class="ml-20">
+							</div>
+							<div class="form-group">
+								<label for="email">Email <span>*</span></label>
+								<input type="email" id="email" class="ml-20">
+							</div>
+							<div class="form-group">
+								<label for="url">Dejame tu URL <span>*</span></label>
+								<textarea class="form-control" id="url" rows="2" class="ml-20"></textarea>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="btn btn-info">Enviar Email</button>
+								<p><input type="text" class="mt-3 ml-30"></p>
+							</div>
+						</form>
+						<div class="row">
+							<div class="col-xs-12, col-sm-12 col-md-6 col-lg-6 text-left">
+								<p>Powered by <small>Equipo Laboratoria</small></p>
+							</div>
+							<div class="col-xs-12, col-sm-12 col-md-6 col-lg-6 text-right">
+								<a href="#"><p>Report abuse</p></a>
+							</div>
+						</div>
+					</div> <!-- Termina formulario -->
 				</div>
-					<form role="form pd-5">
-						<div class="form-group">
-							<h4>Nombre <span>*</span></h4>
-							<input type="text">
-						</div>
-						<div class="form-group">
-							<h4>Email <span>*</span></h4>
-							<input type="email">
-						</div>
-						<div class="form-group">
-							<h4>Dejame tu URL<span>*</span>
-							<textarea class="form-control" rows="3"></textarea>
-						</div>
-					</form>
-					<input type="text" placeholder="Enviar Email">
-					<input type="text">
-					</div>
 			</div>
 		</div>
+		<!-- Incluir todos tus scripts apartir de este punto -->
+    	<!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
+    	<script src="js/jquery.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+	</body>
 </html>

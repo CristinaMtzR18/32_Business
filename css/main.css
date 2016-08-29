@@ -3,7 +3,7 @@
 .bg-header{
 	background: url("../image/large.jpg");
 	background-size: cover;
-	height: 42em;
+	height: 42em; /*37em para fijo top*/
 	/* Para modificar la imagen pero afecta mi texto
 	-webkit-filter: invert(20%);
 	filter: invert(20%)*/
@@ -57,6 +57,7 @@
 .text-white{
 	color: white !important;
 }
+/*Para lineas*/
 .abs{
 	position: absolute;
     left: 45%;
@@ -79,6 +80,9 @@
 .mg-40{
 	margin-left: 40%;
 }
+.mgb-5{
+	margin-bottom: 5%;
+}
 .mgr-10{
 	margin-right: -10%;
 }
@@ -97,7 +101,6 @@
 .mgt-80{
 	margin-top: 80%;
 }
-
 /*Padding*/
 .pd-0{
 	padding: 0;
@@ -114,7 +117,6 @@
 .pd-25{
 	padding: 25%;
 }
-
 /*Boton*/
 .miBoton {
 	margin-top: 5%;

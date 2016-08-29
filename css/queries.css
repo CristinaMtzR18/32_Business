@@ -1,8 +1,28 @@
+			/*** BODY ***/
 body{
 	background-image: url(../image/large.jpg);
 	background-size: 160%;
 }
-
+			/*** FORMULARIO ***/
+.formulario{
+	width: 60%;
+	height: 450px;
+	background-color: white;
+	margin: 10% auto;
+	padding: 3% 5%;
+	border-top: blue 5px solid;
+}
+			/*** UTILIDADES ***/
 span{
 	color: red;
+}
+/*Margin*/
+.mt-2{
+	margin: 2%;
+}
+.ml-30{
+	margin-left: 30%;
+}
+.ml-20{
+	margin-left: 20%;
 }
